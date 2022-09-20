@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 630px;
+    height: 415px;
+    background-image: url(./img/main-fone.png);
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto;
+    position: relative;
+}
+
+.mal {
+    width: 126px;
+    height: 54px;
+    position: absolute;
+    top: 48px;
+    left: -4px;
+    transition: 0.1s;
+    animation: none;
+}
+@keyframes mal {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.sred {
+    width: 132px;
+    height: 62px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    animation: none;
+}
+@keyframes sred {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    25% {
+        transform: rotateX(45deg);
+    }
+    75% {
+        transform: rotateX(-45deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+.big {
+    width: 163px;
+    height: 95px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    animation: none
+
+}
+@keyframes big {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    20% {
+        transform: rotateY(20deg);
+    }
+    40% {
+        transform: rotateY(-20deg);
+    }
+    60% {
+        transform: rotateY(20deg);
+    }
+    80% {
+        transform: rotateY(-20deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+.toshka {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 140px;
+    left: 288px;
+    transform: rotateX(0deg);
+
+}
+
+.pod_toshka {
+    width: 30px;
+    height: 57px;
+    position: absolute;
+    bottom: 50px;
+    left: 277px;
+    transform: rotateX(0deg);
+}
+
+.chto_eto {
+    width: 39px;
+    height: 46px;
+    position: absolute;
+    bottom: 29px;
+    left: 55px;
+    transform: rotate(0deg);
+    /* transition: 0.1s; */
+}
+
+.stick-1 {
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+    transform: rotate(-24deg);
+    animation: none;
+}
+
+.stick-2 {
+    height: 100px;
+    width: 5px;
+    position: absolute;
+    top: 65px;
+    left: 365px;
+    transform: rotate(24deg);
+
+}
+
+.text-box {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+
+@keyframes stickOne {
+    0% {
+        transform: rotate(-25deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(-25deg);
+    }
+}
+
+@keyframes stickOne_2 {
+    0% {
+        transform: rotate(329deg);
+    }
+
+    50% {
+        transform: rotate(289deg);
+    }
+
+    100% {
+        transform: rotate(329deg);
+    }
+}
+
+@keyframes stickTwo {
+    0% {
+        transform: rotate(36deg);
+    }
+
+    50% {
+        transform: rotate(58deg);
+    }
+
+    100% {
+        transform: rotate(36deg);
+    }
+}
